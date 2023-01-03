@@ -329,18 +329,11 @@ const App = () => {
 						href="https://github.com/maulydev"
 						rel="noopener"
 						target="_blank"
+						title="Visit my github repo"
 					>
 						{" "}
-						<IoLogoGithub className="text-2xl" />{" "}
+						<IoLogoGithub className="text-3xl" />{" "}
 					</a>
-					{/* <a
-						href="https://github.com/maulydev"
-						rel="noopener"
-						target="_blank"
-						className="bg-blue-600 px-4 py-1 rounded flex items-center gap-1 text-sm md:text-base appearance-none"
-					>
-						About <span className="hidden md:block">TechCrony</span>
-					</a> */}
 				</header>
 
 				<main className="p-4 space-y-8">
@@ -375,7 +368,7 @@ const App = () => {
 				</main>
 			</div>
 			<footer className="select-none text-center w-full text-sm py-8 border-t border-slate-500 container mx-auto">
-				Copyright © {new Date().getFullYear()} Tech
+				Developed by Tech
 				<span className="bg-white text-slate-900 px-1 rounded font-bold">
 					Crony
 				</span>{" "}
